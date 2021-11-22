@@ -8,11 +8,15 @@ TMDB The Movie Api를 활용해 500여개의 영화 데이터를 끌어와 데�
 강민구 외 2명. 
   
 <h3>프로젝트에서 맡은 역할</h3>
-  영화 데이터의 수집, 분류, 형변환.<br>
+  TMDB api로 RAW 영화 데이터의 수집, 분류, 형변환.<br>
   필요한 추가 데이터의 정제, 정리<br>
   영화 추천 알고리즘<br>
   연관 영화 분석 알고리즘<br>
-  
+  <h4>추가한 데이터</h4>
+  IMDB 방식으로 인기도와 평점을 가중치 계산한 새로운 지표 'score'<br>
+  overview 베이스로 유사도 측정하여 유사한 영화의 고유코드를 저장하는 'movie_reference_overview'<br>
+  <br>
 <h3>데이터 포맷</h3>
   main : json<br>
-  sub : csv<br>
+
+
