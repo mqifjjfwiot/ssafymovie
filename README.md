@@ -20,3 +20,4 @@ TMDB The Movie Api를 활용해 500여개의 영화 데이터를 끌어와 데�
   main : json<br>
 
 
+![캡처](https://user-images.githubusercontent.com/85283021/142834738-62a37e96-5113-42b5-9bf0-5ce656ea9441.PNG)
