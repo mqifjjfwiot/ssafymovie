@@ -13,6 +13,8 @@ TMDB The Movie Api를 활용해 500여개의 영화 데이터를 끌어와 데�
   영화 추천 알고리즘<br>
   연관 영화 분석 알고리즘<br>
   <h4>추가한 데이터</h4>
+  장르정보만을 따로 저장하기 위한 구분키 'movies.genre'<br>
+  영화디테일만을 따로 저장하기 위한 구분키 'movies.movie'<br>
   받아온 영화 고유 id를 구분하기 위해 따로 기록한 'pk'<br>
   IMDB 방식으로 인기도와 평점을 가중치 계산한 새로운 지표 'score'<br>
   overview 베이스로 유사도 측정하여 유사한 영화의 고유코드를 저장하는 'movie_reference_overview'<br>
