@@ -9,3 +9,5 @@ class URLMaker:
   #api 기본 주소세팅. 뒤에 쿼리 덧붙여서 명령별 구별 
   url = 'https://api.themoviedb.org/3'
 
+  def __init__(self, key):
+    self.key = key
