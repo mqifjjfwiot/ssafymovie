@@ -11,3 +11,5 @@ class URLMaker:
 
   def __init__(self, key):
     self.key = key
+
+  # 영화/추천영화 한 페이지 긁어오기(ML용)
