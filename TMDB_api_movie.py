@@ -16,3 +16,4 @@ class URLMaker:
   # GET movie/popular (https://developers.themoviedb.org/3/movies/get-popular-movies)
   def get_movie_url(self, category='movie', feature='popular', page='1'):
     #위의 url(자기자신 소속 url 데이터 line 6)/movie/popular 로 기능 구동
+    url = f'{self.url}/{category}/{feature}'
