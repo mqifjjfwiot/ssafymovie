@@ -15,3 +15,4 @@ class URLMaker:
   # 영화/추천영화 한 페이지 긁어오기(ML용)
   # GET movie/popular (https://developers.themoviedb.org/3/movies/get-popular-movies)
   def get_movie_url(self, category='movie', feature='popular', page='1'):
+    #위의 url(자기자신 소속 url 데이터 line 6)/movie/popular 로 기능 구동
