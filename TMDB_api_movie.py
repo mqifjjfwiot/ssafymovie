@@ -22,3 +22,5 @@ class URLMaker:
 
     #그렇게 만든 최종 명령 url 반환
     return url
+
+  # 영화/추천영화 한 페이지 긁어오기(한글판) 차후 overview, title은 영어가 아닌 한글로 출력하기 위함
