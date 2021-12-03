@@ -27,3 +27,4 @@ class URLMaker:
   def get_movie_url_kr(self, category='movie', feature='popular', page='1'):
     #위의 url(자기자신 소속 url 데이터 line 6)/movie/popular 로 기능 구동
     url = f'{self.url}/{category}/{feature}'
+    #뒤에 쿼리로 인증용 필수 데이터 api_key(line 8), 옵션 데이터인 언어(한글-한국), 페이지수(1페이지) 덧붙임
