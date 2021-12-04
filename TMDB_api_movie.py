@@ -29,3 +29,5 @@ class URLMaker:
     url = f'{self.url}/{category}/{feature}'
     #뒤에 쿼리로 인증용 필수 데이터 api_key(line 8), 옵션 데이터인 언어(한글-한국), 페이지수(1페이지) 덧붙임
     url += f'?api_key={self.key}&language=ko-KR&page={str(page)}'
+
+    #그렇게 만든 최종 명령 url 반환
