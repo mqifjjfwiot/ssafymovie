@@ -31,3 +31,4 @@ class URLMaker:
     url += f'?api_key={self.key}&language=ko-KR&page={str(page)}'
 
     #그렇게 만든 최종 명령 url 반환
+    return url
