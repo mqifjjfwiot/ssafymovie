@@ -33,5 +33,6 @@ class URLMaker:
     #그렇게 만든 최종 명령 url 반환
     return url
   
-    # 장르 정보 긁어오기 (https://developers.themoviedb.org/3/genres/get-movie-list)
-    def get_genre_url(self):
+  # 장르 정보 긁어오기 (https://developers.themoviedb.org/3/genres/get-movie-list)
+  def get_genre_url(self):
+    url = f'{self.url}/genre/movie/list?api_key={self.key}'
