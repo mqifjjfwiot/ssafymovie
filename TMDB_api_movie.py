@@ -39,3 +39,4 @@ class URLMaker:
     return url
 
 # 인증키(외부 API 시동용)
+TMDB_KEY = '0789615fec0d944ce48f5cd2446f034b'
