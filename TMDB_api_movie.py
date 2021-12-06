@@ -37,3 +37,5 @@ class URLMaker:
   def get_genre_url(self):
     url = f'{self.url}/genre/movie/list?api_key={self.key}'
     return url
+
+# 인증키(외부 API 시동용)
