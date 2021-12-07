@@ -42,4 +42,5 @@ class URLMaker:
 TMDB_KEY = '07893hhsf423498asdas2446f034b'
 # 일부 변형하여 업로드함
 
+# url 조합해주는 클래스 선언
 
