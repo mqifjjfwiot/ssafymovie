@@ -50,3 +50,4 @@ PAGES = 200
 
 def create_genre_data():
   # line 37에서 반환한 url값 받아와 저장
+  genre_url = url.get_genre_url()
