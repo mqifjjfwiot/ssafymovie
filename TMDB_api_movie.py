@@ -52,3 +52,4 @@ def create_genre_data():
   # line 37에서 반환한 url값 받아와 저장
   genre_url = url.get_genre_url()
   # 리퀘스트 데이터 저장
+  raw_data = requests.get(genre_url)
