@@ -53,3 +53,4 @@ def create_genre_data():
   genre_url = url.get_genre_url()
   # 리퀘스트 데이터 저장
   raw_data = requests.get(genre_url)
+  # 해당 데이터 json화
