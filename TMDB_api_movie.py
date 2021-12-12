@@ -55,3 +55,4 @@ def create_genre_data():
   raw_data = requests.get(genre_url)
   # 해당 데이터 json화
   json_data = raw_data.json()
+  # 시킨것에서 genres라는 키의 밸류값 추출
