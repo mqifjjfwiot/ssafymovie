@@ -57,3 +57,5 @@ def create_genre_data():
   json_data = raw_data.json()
   # 시킨것에서 genres라는 키의 밸류값 추출
   genres = json_data.get('genres')
+
+  # 장르 데이터 저장용 빈 리스트 생성. 여기에 딕셔너리 하나씩 넣을 예정
