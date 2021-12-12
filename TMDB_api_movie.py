@@ -60,3 +60,5 @@ def create_genre_data():
 
   # 장르 데이터 저장용 빈 리스트 생성. 여기에 딕셔너리 하나씩 넣을 예정
   genre_data = []
+
+  # genres의 모든 원소들을 하나하나 tmp에 저장한뒤 genre_data에 하나하나 추가함
