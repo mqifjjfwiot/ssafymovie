@@ -59,3 +59,4 @@ def create_genre_data():
   genres = json_data.get('genres')
 
   # 장르 데이터 저장용 빈 리스트 생성. 여기에 딕셔너리 하나씩 넣을 예정
+  genre_data = []
