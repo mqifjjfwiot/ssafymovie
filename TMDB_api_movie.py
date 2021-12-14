@@ -64,4 +64,8 @@ def create_genre_data():
   # genres의 모든 원소들을 하나하나 tmp에 저장한뒤 genre_data에 하나하나 추가함
   for genre in genres:
     tmp = {
+      # 나중에 찾아오려는 심산인지 모델명을 movies.genre로 통일시켜둠
+      'model': 'movies.genre',
+      'pk': genre['id'],
+      
 
