@@ -71,4 +71,4 @@ def create_genre_data():
                 'name': genre['name']
       }
     }
-
+    genre_data.append(tmp)
