@@ -67,5 +67,8 @@ def create_genre_data():
       # 나중에 찾아오려는 심산인지 모델명을 movies.genre로 통일시켜둠
       'model': 'movies.genre',
       'pk': genre['id'],
-      
+      'fields': {
+                'name': genre['name']
+      }
+    }
 
