@@ -62,3 +62,6 @@ def create_genre_data():
   genre_data = []
 
   # genres의 모든 원소들을 하나하나 tmp에 저장한뒤 genre_data에 하나하나 추가함
+  for genre in genres:
+    tmp = {
+
