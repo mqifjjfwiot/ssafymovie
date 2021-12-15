@@ -72,3 +72,5 @@ def create_genre_data():
       }
     }
     genre_data.append(tmp)
+
+  # 모든 moives의 movie들을 다 돌려 원하는 내용만 만들어 추가한 딕셔너리 덩어리 genre_data 다 만든 뒤,
