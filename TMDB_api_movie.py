@@ -76,3 +76,8 @@ def create_genre_data():
   # 모든 moives의 movie들을 다 돌려 원하는 내용만 만들어 추가한 딕셔너리 덩어리 genre_data 다 만든 뒤,
   # tmdb.json을 쓰기전용 사양('w')으로 오픈. 없다면 해당 빈파일 생성하고 있다면 싹 비우고 내용입력 시작.
   with open('tmdb.json', 'w') as f:
+    # 파이썬 객체를 json문자열로 변환. 위에 '열어둔' tmdb.json(이하 f)에 genre_data 파일 싹 입력. 
+    # indent : 들여쓰기 옵션. 보통 4로 놓고쓰며 줄바꿈 잘 되고 이쁘게 된다.
+    # load와 마찬가지로 파이썬 내부에 놓고 쓰려면 dumps쓰면 되는데 잘 쓰진 않는것같다.
+    json.dump(genre_data, f, indent=4)
+    
