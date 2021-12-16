@@ -82,3 +82,4 @@ def create_genre_data():
     json.dump(genre_data, f, indent=4)
     
 def create_movie_data():
+  # 'tmdb.json' 읽어오기. r+는 읽기 또는 쓰기모드. 밑에 w도 있는데 w는 여는순간(없다면 새로 만들어서라도) 안의 내용물 싹 밀어버리고 기록하는 타입이라면
