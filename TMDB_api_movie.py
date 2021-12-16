@@ -86,3 +86,4 @@ def create_movie_data():
   # r+는 내용물은 건드리지 않고 이어 기록하는 타입. 따라서 수정할거면 무조건 w를 써야하지만 추가만 할거면 r+가 안전하다. 이하 f로 약칭.
   with open('tmdb.json', 'r+') as f:
     # json.load()로 외부의 json파일(여기선 open한 tmdb)을 파이썬 객체화 시킨놈이 movie_data (디코딩)
+    # json.loads()도 있는데 이건 쉽게말해서 파이썬 내부 json타입 데이터스트링을 json 오브젝트로 만들때 쓴다고 보면 편하다 (인코딩)
