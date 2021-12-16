@@ -84,3 +84,4 @@ def create_genre_data():
 def create_movie_data():
   # 'tmdb.json' 읽어오기. r+는 읽기 또는 쓰기모드. 밑에 w도 있는데 w는 여는순간(없다면 새로 만들어서라도) 안의 내용물 싹 밀어버리고 기록하는 타입이라면
   # r+는 내용물은 건드리지 않고 이어 기록하는 타입. 따라서 수정할거면 무조건 w를 써야하지만 추가만 할거면 r+가 안전하다. 이하 f로 약칭.
+  with open('tmdb.json', 'r+') as f:
