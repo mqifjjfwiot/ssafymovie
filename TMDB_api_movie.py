@@ -81,3 +81,4 @@ def create_genre_data():
     # load와 마찬가지로 파이썬 내부에 놓고 쓰려면 dumps쓰면 되는데 잘 쓰진 않는것같다.
     json.dump(genre_data, f, indent=4)
     
+def create_movie_data():
