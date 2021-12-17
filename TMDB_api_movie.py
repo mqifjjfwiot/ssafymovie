@@ -88,3 +88,5 @@ def create_movie_data():
     # json.load()로 외부의 json파일(여기선 open한 tmdb)을 파이썬 객체화 시킨놈이 movie_data (디코딩)
     # json.loads()도 있는데 이건 쉽게말해서 파이썬 내부 json타입 데이터스트링을 json 오브젝트로 만들때 쓴다고 보면 편하다 (인코딩)
     movie_data = json.load(f)
+  
+  current_date = date.today().isoformat()
