@@ -90,3 +90,5 @@ def create_movie_data():
     movie_data = json.load(f)
   
   current_date = date.today().isoformat()
+
+  for page in range(1, PAGES):
