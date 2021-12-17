@@ -92,3 +92,5 @@ def create_movie_data():
   current_date = date.today().isoformat()
 
   for page in range(1, PAGES):
+    # 외부 데이터
+    raw_data = requests.get(url.get_movie_url_kr(page=page))
