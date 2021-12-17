@@ -94,5 +94,7 @@ def create_movie_data():
   for page in range(1, PAGES):
     # 외부 데이터
     raw_data = requests.get(url.get_movie_url_kr(page=page))        
-    # 외부 데이터 -> 파이썬 딕셔너리로
+    # 외부 데이터 -> 파이썬 딕셔너리로        
+    json_data = raw_data.json()
+
 
