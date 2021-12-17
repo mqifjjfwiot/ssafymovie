@@ -96,6 +96,8 @@ def create_movie_data():
     raw_data = requests.get(url.get_movie_url_kr(page=page))        
     # 외부 데이터 -> 파이썬 딕셔너리로        
     json_data = raw_data.json()
-    # 그 중에서 필요한 movie 정보
+    # 그 중에서 필요한 movie 정보        
+    movies = json_data.get('results')
+
 
 
