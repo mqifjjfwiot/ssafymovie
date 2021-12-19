@@ -99,5 +99,6 @@ def create_movie_data():
     # 그 중에서 필요한 movie 정보        
     movies = json_data.get('results')
 
+    #movies의 각 원소들에 대해 그 원소들과 대응하는 데이터 추출. 
 
 
