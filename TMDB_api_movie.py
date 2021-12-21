@@ -109,3 +109,4 @@ def create_movie_data():
       #.pop() 리스트의 마지막 데이터를 뽑아내고 삭제함. 
 
       # DB에 적재하지 않지만, API에서 내려온 내용은 여기서 삭제한다.
+      movie.pop('video')
