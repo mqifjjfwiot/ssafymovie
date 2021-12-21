@@ -108,3 +108,4 @@ def create_movie_data():
       if movie.get('release_date') and movie.get('poster_path') and movie.get('backdrop_path') and 0 < movie.get('vote_average') < 10 and current_date >= movie.get('release_date') :
       #.pop() 리스트의 마지막 데이터를 뽑아내고 삭제함. 
 
+      # DB에 적재하지 않지만, API에서 내려온 내용은 여기서 삭제한다.
