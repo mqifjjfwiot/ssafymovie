@@ -110,3 +110,5 @@ def create_movie_data():
 
       # DB에 적재하지 않지만, API에서 내려온 내용은 여기서 삭제한다.
       movie.pop('video')
+      movie.pop('original_language')
+      movie.pop('adult')
