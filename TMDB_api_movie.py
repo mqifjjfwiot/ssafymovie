@@ -113,4 +113,6 @@ def create_movie_data():
       movie.pop('original_language')
       movie.pop('adult')
 
-      
+      # 01.recommended에서의 결과값과 과정을 담을 빈 리스트를 추가한다.
+      movie['movie_reference_overview'] = []
+      #movie['score'] = []
