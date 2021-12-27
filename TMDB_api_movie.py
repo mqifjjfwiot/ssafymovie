@@ -118,3 +118,9 @@ def create_movie_data():
       #movie['score'] = []
 
       # loaddata 명령어시, JSON을 DB에 적재할 수 있도록 세팅
+      tmp = {
+        'model': 'movies.movie',
+        'pk': movie.pop('id'),
+        'fields': movie,
+      }
+      
