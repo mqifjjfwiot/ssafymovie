@@ -115,7 +115,6 @@ def create_movie_data():
 
       # 01.recommended에서의 결과값과 과정을 담을 빈 리스트를 추가한다.
       movie['movie_reference_overview'] = []
-      #movie['score'] = []
 
       # loaddata 명령어시, JSON을 DB에 적재할 수 있도록 세팅
       tmp = {
@@ -123,4 +122,5 @@ def create_movie_data():
         'pk': movie.pop('id'),
         'fields': movie,
       }
-      
+      # movie_data에 세팅 내용을 추가
+      movie_data.append(tmp)
