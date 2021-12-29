@@ -132,3 +132,5 @@ def create_movie_data():
     # indent : 들여쓰기 옵션. 보통 4로 놓고쓰며 줄바꿈 잘 되고 이쁘게 된다.
     # load와 마찬가지로 파이썬 내부에 놓고 쓰려면 dumps쓰면 되는데 잘 쓰진 않는것같다.
     json.dump(movie_data, f, indent=4)
+
+# 최종적인 JSON의 overview와 title은 한글이어야하기 때문에, tmdbkr을 생성하고 차후 최종 파일에 반영한다.
