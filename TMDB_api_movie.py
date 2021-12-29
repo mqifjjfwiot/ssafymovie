@@ -124,3 +124,7 @@ def create_movie_data():
       }
       # movie_data에 세팅 내용을 추가
       movie_data.append(tmp)
+
+  # 모든 moives의 movie들을 다 돌려 원하는 내용만 만들어 추가한 딕셔너리 덩어리 movie_data 다 만든 뒤,
+  # tmdb.json을 쓰기전용 사양('w')으로 오픈. 없다면 해당 빈파일 생성하고 있다면 싹 비우고 내용입력 시작.
+
