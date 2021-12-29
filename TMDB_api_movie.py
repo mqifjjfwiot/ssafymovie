@@ -130,3 +130,4 @@ def create_movie_data():
   with open('tmdb.json', 'w') as f:
     # 파이썬 객체를 json문자열로 변환. 위에 '열어둔' tmdb.json(이하 f)에 movie_data 파일 싹 입력. 
     # indent : 들여쓰기 옵션. 보통 4로 놓고쓰며 줄바꿈 잘 되고 이쁘게 된다.
+    # load와 마찬가지로 파이썬 내부에 놓고 쓰려면 dumps쓰면 되는데 잘 쓰진 않는것같다.
