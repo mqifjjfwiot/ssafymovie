@@ -135,3 +135,4 @@ def create_movie_data():
 
 # 최종적인 JSON의 overview와 title은 한글이어야하기 때문에, tmdbkr을 생성하고 차후 최종 파일에 반영한다.
 def create_movie_kr_data():
+  movie_data = []
