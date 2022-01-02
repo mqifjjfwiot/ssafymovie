@@ -137,3 +137,5 @@ def create_movie_data():
 def create_movie_kr_data():
   movie_data = []
   current_date = date.today().isoformat()
+  
+  for page in range(1, PAGES):
