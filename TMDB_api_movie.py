@@ -140,3 +140,4 @@ def create_movie_kr_data():
   
   for page in range(1, PAGES):
     # 외부 데이터
+    raw_data = requests.get(url.get_movie_url_kr(page=page))
