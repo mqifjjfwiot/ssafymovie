@@ -139,3 +139,4 @@ def create_movie_kr_data():
   current_date = date.today().isoformat()
   
   for page in range(1, PAGES):
+    # 외부 데이터
