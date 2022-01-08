@@ -145,3 +145,5 @@ def create_movie_kr_data():
     json_data = raw_data.json()
     # 그 중에서 필요한 movie 정보
     movies = json_data.get('results')
+    # json_data의 results 키값을 갖는 밸류값들만 토해서 movies에 저장. 타입:list
+    # movies = requests.get(url.get_movie_url_kr(page=page)).json().get('results')
