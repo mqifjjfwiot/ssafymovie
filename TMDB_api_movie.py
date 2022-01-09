@@ -150,3 +150,5 @@ def create_movie_kr_data():
 
     #movies의 각 원소들에 대해 그 원소들과 대응하는 데이터 추출.
     for movie in movies:
+      # 데이터 전처리
+      # release_date, poster_path, backdrop_path등이 비어있는 등 정보가 충분하지 않은 영화나(결측치)
