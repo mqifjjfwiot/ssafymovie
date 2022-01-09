@@ -147,3 +147,6 @@ def create_movie_kr_data():
     movies = json_data.get('results')
     # json_data의 results 키값을 갖는 밸류값들만 토해서 movies에 저장. 타입:list
     # movies = requests.get(url.get_movie_url_kr(page=page)).json().get('results')
+
+    #movies의 각 원소들에 대해 그 원소들과 대응하는 데이터 추출.
+    for movie in movies:
