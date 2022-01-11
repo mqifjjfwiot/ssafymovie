@@ -156,3 +156,7 @@ def create_movie_kr_data():
       if movie.get('release_date') and movie.get('poster_path') and movie.get('backdrop_path') and 0 < movie.get('vote_average') < 10 and current_date >= movie.get('release_date') :
           # loaddata 명령어시, JSON을 DB에 적재할 수 있도록 세팅
           tmp = {
+            'model': 'movies.movie',
+            'pk': movie.pop('id'),
+            'fields': movie,
+          }
