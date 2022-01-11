@@ -152,3 +152,4 @@ def create_movie_kr_data():
     for movie in movies:
       # 데이터 전처리
       # release_date, poster_path, backdrop_path등이 비어있는 등 정보가 충분하지 않은 영화나(결측치)
+      # 10점, 0점등의 vote_average나, 현재 날짜를 이후의 개봉일자(release_date) (이상치)같은 데이터를 전처리한다.
