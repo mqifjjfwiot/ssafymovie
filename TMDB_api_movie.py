@@ -160,3 +160,5 @@ def create_movie_kr_data():
             'pk': movie.pop('id'),
             'fields': movie,
           }
+          # movie_data에 세팅 내용을 추가
+          movie_data.append(tmp)
